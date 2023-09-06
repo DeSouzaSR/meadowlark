@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 app.get("/about", (req, res) => {
     res.type("text/plain");
-    res.send("About Meadowlark Travel");
+    res.send("About Meadowlark Travel!");
   });
 // Custom 404 page.
 app.use((req, res) => {
